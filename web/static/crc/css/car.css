@@ -1,0 +1,53 @@
+.cart {
+}
+.cart-wrap {
+    width: 100%;
+    padding: 0 14px;
+    display: table;
+    
+}
+._col {
+    display:flex;    
+    justify-content: center;
+    align-items: center;
+}
+._row {
+    /* display: table-row */
+    flex:1 1;
+    text-align: center;
+    padding: 5px 10px;
+    border:1px solid pink;
+}
+
+#address_input {
+    display: none;
+}
+div .selected {
+    /* color: red; */
+    background-color: red;
+}
+#order-head {
+    display: flex;
+    width: 70%;
+    /* position: relative; */
+}
+.step {
+    flex: 1 1;
+    margin: 0 5px;
+    background-color: pink;    
+    border-radius: 5px;
+}
+#input_wrap {
+    width: 300px;
+    margin: 0 auto;
+}
+.label {
+    /* flex: 1 1; */
+    width: 100px;
+}
+.input-box {
+    /* flex: 1 2; */
+}
+.input-item_box {
+    display: flex;
+}

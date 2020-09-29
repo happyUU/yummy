@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    color: #ffffff;
+    width: 100%;
+    /* margin: 0 auto; */
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover, #login:hover {
+    color: #62cbdd;
+}
+nav {
+    background-color: #000000;
+}
+/* 导航条样式 */
+#logo {
+    height: 80px;
+    width: 80px;
+    padding-left: 50px;
+    float: left;
+}
+#title {
+    float: left;
+    /* margin: 32px 30px; */
+    height: 80px;
+    margin-left: 30px;
+}
+.pageName {
+    display: inline-block;
+    padding: 0 30px;
+    /* margin: 0 10px; */
+    height: 80px;
+    line-height: 80px;
+    /* vertical-align: middle; */
+    /* color: #ffffff; */
+}
+.pageName:hover, .pageName:active {
+    background-color: #572c2c;
+}
+#login {
+    float: right;
+    padding-right: 50px;
+    line-height: 80px;
+    color: #ecc14b;
+}
+nav::after, .topic_li::after, .last_li::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+/* 主体部分 */
+.food_products {
+    background: url('../images/recommend/recom_back.png') no-repeat;
+    background-position: center top;
+    background-color: #ffffff;
+    /* height: 500px; */
+    text-align: center;
+}
+.food_products > ul {
+    width: 900px;
+    margin: 0 auto;
+}
+#wakeup {
+    background: url('../images/recommend/veer.jpg') no-repeat;
+    margin: 0 200px;
+    padding: 10px 0 80px;
+}
+h2 {
+    padding: 20px 0 10px;
+}
+p {
+    margin: 5px 0 20px;
+    font-size: 18px;
+}
+.little_title {
+    padding: 130px 0 30px;
+    color: #1c5e1a;
+    font-size: 40px;
+}
+.pros {
+    display: inline-block;
+    position: relative;
+    height: 304px;
+    width: 420px;
+}
+#happy_li {
+    /* background: url('../images/recommend/ri.jpg') no-repeat; */
+    width: 420px;
+    height: 304px;
+}
+.food_pic {
+    display: inline-block;
+}
+.food_pic > img {
+    width: 200px;
+    height: 150px;
+}
+#happy {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    bottom: 0;
+    /* left: 10px; */
+    width: 420px;
+}
+#happy > span {
+    font-size: 22px;
+    padding: 0 5px;
+}
+.topic_li {
+    display: block;
+    color: #585656;
+    padding: 50px 0;
+    border-bottom: 2px solid #adacac;
+}
+.topic_li > img {
+    width: 400px;
+    height: 300px;
+    float: left;
+}
+.artical {
+    width: 400px;
+    float: left;
+    text-align: left;
+    position: relative;
+    margin-left: 100px;
+    padding: 30px 0;
+}
+.artical > p {
+    margin: 20px 0;
+}
+.artical > button {
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    background-color: #ffffff;
+    border: 1px solid #636161;
+    padding: 5px 10px;
+    color: #636161;
+}
+#recom_goods {
+    margin: 100px 0;
+    text-align: center;
+    color: #7e7c7c;
+    /* width: 100%; */
+}
+#recom_goods > p {
+    margin: 20px 0;
+}
+#title_good {
+    /* margin: 20px 0; */
+    color: #ecb44b;
+    font-size: 40px;
+    /* width: 160px; */
+}
+.classify {
+    display: inline-block;
+    margin: 10px 30px 50px;
+    font-size: 24px;
+    color: #585656;
+}
+.last_li {
+    display: block;
+    margin: 30px auto;
+    height: 250px;
+    width: 1000px;
+}
+.last_li > img {
+    height: 250px;
+}
+.last_li > div {
+    width: 250px;
+    height: 100px;
+    padding: 75px 0;
+    /* vertical-align: middle; */
+    background-color: #ecb44b;
+    line-height: 50px;
+}
+.last {
+    float: left;
+}
+.img_1 {
+    width: 500px;
+}
+.img_2 {
+    width: 250px;
+}
+.img_3 {
+    width: 750px;
+}
+/* 页尾 */
+footer {
+    background-color: #000000;
+}
+#ymmy {
+    font-size: 32px;
+    font-family: FZShuTi;
+    font-weight: 600;
+    margin: 0 100px 20px;
+    padding-top: 20px;
+}
+.some_mess {
+    display: inline-block;
+    padding: 2px 10px;
+    font-family: FZShuTi;
+    font-size: 20px;
+    border-right: 2px solid #ffffff;
+    margin-bottom: 30px;
+}
+.some_mess:first-child {
+    margin: 0 0 0 100px;
+}
+.some_mess:last-child {
+    border: none;
+}

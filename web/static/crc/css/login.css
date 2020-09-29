@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#back {
+    width: 100%;
+    position: relative;
+    height: 733px;
+    background: url('../images/login.jpg') no-repeat;
+}
+#login_box {
+    position: absolute;
+    top: 30%;
+    right: 16%;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 50px 40px;
+    font-size: 18px;
+}
+.login_input {
+    /* width: 100%; */
+    margin: 5px 10px 20px;
+    line-height: 32px;
+}
+.login_input > input {
+    height: 20px;
+    font-size: 16px;
+    padding: 6px 10px;
+}
+#forget {
+    color: #f18c2d;
+    /* position: relative; */
+    /* right: 10%; */
+    float: right;
+    /* padding-bottom: 2px; */
+    margin: 3px 10px 10px;
+    font-size: 16px;
+}
+#login_btn {
+    clear: both;
+    width: 100%;
+    /* margin: 0 10%; */
+    height: 30px;
+    background-color: #50b2eb;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 18px;
+}
+#register {
+    display: block;
+    /* text-decoration: none; */
+    color: #2789c2;
+    /* text-align: center; */
+    font-size: 16px;
+    width: 176px;
+    margin: 0 auto;
+}
+#rem_btn {
+    /* vertical-align: top; */
+    /* width: 100px; */
+    display: inline-block;
+    margin: 0 0 10px;
+}
+#remember {
+    /* padding: 5px; */
+    margin: 0 0 0 12px;
+}
+span {
+    font-size: 16px;
+}
